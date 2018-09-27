@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bang cuu chuong</title>
+</head>
+<body>
+<script language="JavaScript">
+    var sout;
+    sout = "<table border = '1' width = '240' cellspacing = '0' cellpadding = '30'>"
+    for (j = 1;j <= 9; j++){
+        sout = sout + "<tr>";
+        for (i = 2; i <= 9; i++){
+            sout = sout + "<td>" + i + 'x' + j + '=' + i*j + "</td>";
+        }
+        sout = sout + "</tr>";
+    }
+    sout = sout + "</table>";
+    document.write(sout);
+</script>
+</body>
+</html>
